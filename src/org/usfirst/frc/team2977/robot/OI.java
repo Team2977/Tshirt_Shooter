@@ -15,6 +15,7 @@ public class OI {
     public Joystick joystick = new Joystick(0);
     Button aButton = new edu.wpi.first.wpilibj.buttons.JoystickButton(joystick, 1);
     Button bButton = new edu.wpi.first.wpilibj.buttons.JoystickButton(joystick, 2);
+    Button xButton = new edu.wpi.first.wpilibj.buttons.JoystickButton(joystick, 3);
     Button rBumper = new edu.wpi.first.wpilibj.buttons.JoystickButton(joystick, 6);
     //// CREATING BUTTONS
     // One type of button is a joystick button which is any button on a joystick.
